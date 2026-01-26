@@ -1,0 +1,28 @@
+[project]
+name = "algollm"
+version = "0.1.0"
+description = "Learning and experimenting with large models and RL algorithms"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    # ===== 强化学习 / 深度学习核心 =====
+    "torch>=2.8",
+    "torchvision>=0.23",
+    "torchaudio>=2.8",
+
+    # ===== 数值与科学计算 =====
+    "numpy>=2.2",
+
+    # ===== 强化学习环境 =====
+    "gymnasium[classic-control]>=0.29",
+
+    # ===== 可视化 / 结果展示 =====
+    "matplotlib>=3.10",
+    "imageio>=2.34",
+    "imageio-ffmpeg>=0.4",
+
+    # ===== 工程辅助（可选但常用） =====
+    "tqdm>=4.66",
+    "rich>=13.7",
+]
