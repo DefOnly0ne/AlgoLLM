@@ -25,4 +25,5 @@ dependencies = [
     # ===== 工程辅助（可选但常用） =====
     "tqdm>=4.66",
     "rich>=13.7",
+    "transformers>=4.3"
 ]
